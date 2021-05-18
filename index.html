@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/site/css/style.css">
+  <title>ViLABS-NITW</title>
+</head>
+
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">V'i'LABS-NITW</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="/site/media/test2.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h4>Everything is theoretically</h4>
+      <h2>Impossible,</h2>
+      <h4>until it is done</h4>
+      <a href="#">Explore</a>
+    </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="#">Assignment-1</a></li>
+      <li><a href="#">Assignment-2</a></li>
+      <li><a href="#">Assignment-3(i)</a></li>
+      <li><a href="#">Assignment-3(ii)</a></li>
+      <li><a href="#">Assignment-4</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    });
+    </script>
+</body>
+
+</html>
